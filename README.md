@@ -36,7 +36,10 @@ library("rutils")
 
 ## Overview
 
-Coming soon…
+- [`get_phylopic_image()`](https://frbcesab.github.io/rutils/reference/get_phylopic_image.html):
+  downloads a silhouette from the [PhyloPic](https://www.phylopic.org/)
+  database using the [PhyloPic API
+  2.x.x](http://api-docs.phylopic.org/v2/)
 
 ## Citation
 
