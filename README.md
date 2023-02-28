@@ -5,6 +5,12 @@
 
 <!-- badges: start -->
 
+[![R CMD
+Check](https://github.com/ahasverus/rutils/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ahasverus/rutils/actions/workflows/R-CMD-check.yaml)
+[![Website](https://github.com/ahasverus/rutils/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/ahasverus/rutils/actions/workflows/pkgdown.yaml)
+[![Test
+coverage](https://github.com/ahasverus/rutils/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/ahasverus/rutils/actions/workflows/test-coverage.yaml)
+[![codecov](https://codecov.io/gh/frbcesab/rutils/branch/main/graph/badge.svg)](https://codecov.io/gh/frbcesab/rutils)
 [![License: GPL (\>=
 2)](https://img.shields.io/badge/License-GPL%20%28%3E%3D%202%29-blue.svg)](https://choosealicense.com/licenses/gpl-2.0/)
 <!-- badges: end -->

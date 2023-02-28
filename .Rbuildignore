@@ -4,3 +4,4 @@
 ^LICENSE\.md$
 ^README\.Rmd$
 ^README\.html$
+^_pkgdown\.yaml$
