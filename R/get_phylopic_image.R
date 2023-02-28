@@ -87,7 +87,8 @@ get_phylopic_image <- function(uuid, size = 512) {
   ## Download png ----
   
   filename <- paste0(tempfile(), ".png")
-  utils::download.file(url = link, destfile = filename, quiet = TRUE)
+  utils::download.file(url = link, destfile = filename, quiet = TRUE, 
+                       mode = "wb")
   
   
   ## Import raster ----
