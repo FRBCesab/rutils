@@ -2,9 +2,9 @@ citHeader("To cite rutils in publications use:")
 
 bibentry(
   bibtype = "Manual",
-  title   = "rutils: {An} {R} package to ...",
+  title   = "rutils: {A} collection of {R} functions commonly used in {FRB-CESAB} projects",
   author  = c(person("Casajus Nicolas")),
   year    = "2023",
   note    = "R package version 0.0.0.9000",
-  url     = "https://github.com/ahasverus/rutils"
+  url     = "https://github.com/frbcesab/rutils"
 )

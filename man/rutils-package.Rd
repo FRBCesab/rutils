@@ -4,15 +4,15 @@
 \name{rutils-package}
 \alias{rutils}
 \alias{rutils-package}
-\title{rutils: The Title of the Project}
+\title{rutils: A Collection of R Functions}
 \description{
-A paragraph providing a full description of the project (on several lines...)
+A collection of R functions commonly used in FRB-CESAB projects.
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/ahasverus/rutils}
-  \item Report bugs at \url{https://github.com/ahasverus/rutils/issues}
+  \item \url{https://github.com/frbcesab/rutils}
+  \item Report bugs at \url{https://github.com/frbcesab/rutils/issues}
 }
 
 }

@@ -6,7 +6,7 @@
 #' do not forget to delete the corresponding test file 
 #' `tests/testthat/test-demo.R` if you used `new_package(test = TRUE)`.
 #' 
-#' @param x a character of length 1. Default is `'Hello world'`.
+#' @param x a `character` of length 1. Default is 'Hello world'.
 #'
 #' @return The value of `x` (only if the result is assigned to a variable).
 #' 

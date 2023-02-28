@@ -7,7 +7,7 @@
 print_msg(x = "Hello world")
 }
 \arguments{
-\item{x}{a character of length 1. Default is \code{'Hello world'}.}
+\item{x}{a \code{character} of length 1. Default is 'Hello world'.}
 }
 \value{
 The value of \code{x} (only if the result is assigned to a variable).
