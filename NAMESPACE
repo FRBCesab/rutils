@@ -2,4 +2,5 @@
 
 export(get_phylopic_image)
 export(get_world_basemap)
+export(multi_merge)
 export(print_msg)

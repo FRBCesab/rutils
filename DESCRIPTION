@@ -19,10 +19,13 @@ Imports:
     httr,
     jsonlite,
     png,
+    tidyr,
     utils
 Suggests: 
+    ggplot2,
     knitr,
     rmarkdown,
+    rphylopic,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 VignetteBuilder: knitr
