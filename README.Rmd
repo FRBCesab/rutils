@@ -51,6 +51,19 @@ library("rutils")
 
 - [`get_phylopic_image()`](https://frbcesab.github.io/rutils/reference/get_phylopic_image.html): downloads a silhouette from the [PhyloPic](https://www.phylopic.org/) database using the [PhyloPic API 2.x.x](http://api-docs.phylopic.org/v2/)
 
+- [`get_world_basemap()`](https://frbcesab.github.io/rutils/reference/get_world_basemap.html): downloads a spatial layer of world countries boundaries as defined by the IPBES
+
+- [`leading_zero()`](https://frbcesab.github.io/rutils/reference/leading_zero.html): adds leading zeros to a vector
+
+- [`multi_merge()`](https://frbcesab.github.io/rutils/reference/multi_merge.html): combines different matrices by row names and column names by performing a 2-dimension full join
+
+- [`to_binomial_name()`](https://frbcesab.github.io/rutils/reference/to_binomial_name.html): corrects species binomial name case
+
+
+## Contribution
+
+Visit the [wiki](https://github.com/FRBCesab/rutils/wiki/How-to-contribute) to learn how to contribute to this project.
+
 
 ## Citation
 
