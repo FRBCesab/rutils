@@ -59,6 +59,8 @@ library("rutils")
 
 - [`to_binomial_name()`](https://frbcesab.github.io/rutils/reference/to_binomial_name.html): corrects species binomial name case
 
+- [`address_to_coords()`](https://frbcesab.github.io/rutils/reference/address_to_coords.html): gets geographic coordinates of any location in the World
+
 
 ## Contribution
 
