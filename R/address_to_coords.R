@@ -38,10 +38,6 @@ address_to_coords <- function(address) {
     stop("Argument 'address' must be character of length 1", call. = FALSE)
   }
   
-  if (is.na(address)) {
-    stop("Argument 'address' cannot contain NA value", call. = FALSE)
-  }
-  
   
   ## API URL ----
   
