@@ -2,25 +2,30 @@
 % Please edit documentation in R/rename_col.R
 \name{rename_col}
 \alias{rename_col}
-\title{Rename any columns of a dataframe (from 1 to as much columns as you want)}
+\title{Rename any columns of a data.frame (from 1 to as much columns as you want)}
 \usage{
 rename_col(df, old.col.names, new.col.names)
 }
 \arguments{
-\item{df}{a dataframe.}
+\item{df}{a \code{data.frame}}
 
-\item{old.col.names}{a vector of columns names to rename}
+\item{old.col.names}{a \code{character} vector of column names to rename}
 
-\item{new.col.names}{a vector of columns new names}
+\item{new.col.names}{a \code{character} vector of column new names}
 }
 \value{
-a dataframe.
+The same \code{data.frame} as \code{df}.
 }
 \description{
-Rename any columns of a dataframe (from 1 to as much columns as you want)
+Renames any columns of a \code{data.frame} (from 1 to as much columns as you
+want).
 }
 \examples{
-df <- cbind.data.frame(a=1:10,b=1:10,c=1:10,d=1:10)
-df <- rename_col(df,old.col.names=c("a","d"),new.col.names=c("aa","dd"))
+df <- cbind.data.frame(a = 1:10, b = 1:10, c = 1:10, d = 1:10)
+df
+
+rename_col(df, 
+           old.col.names = c("a", "d"), 
+           new.col.names = c("aa", "dd"))
 
 }
