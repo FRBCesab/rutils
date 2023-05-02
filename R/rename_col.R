@@ -23,6 +23,39 @@
 
 rename_col <- function(df, old.col.names, new.col.names) {
   
+  if (missing(df)) {
+    stop("Argument 'df' is required", call. = FALSE)
+  }
+  
+  if (!is.data.frame(df)) {
+    stop("Argument 'df' must be a data.frame", call. = FALSE)
+  } 
+  
+  if (missing(old.col.names)) {
+    stop("Argument 'old.col.names' is required", call. = FALSE)
+  }
+  
+  if (!is.character(old.col.names)) {
+    stop("Argument 'old.col.names' must be a character", call. = FALSE)
+  }
+  
+  if (missing(new.col.names)) {
+    stop("Argument 'new.col.names' is required", call. = FALSE)
+  }
+  
+  if (!is.character(new.col.names)) {
+    stop("Argument 'new.col.names' must be a character", call. = FALSE)
+  }
+  
+  if (length(new.col.names) != length(old.col.names)) {
+    stop("Arguments 'old.col.names' and 'new.col.names' must be of the same ", 
+         "length", call. = FALSE)
+  }
+  
+  if (any(!(old.col.names %in% colnames(df)))) {
+    stop("Some names in 'old.col.names' are absent from 'df'", call. = FALSE)
+  }
+  
   for (i in 1:length(old.col.names)) {
     
     names(df)[names(df) == old.col.names[i]] <- new.col.names[i]
