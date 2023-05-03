@@ -62,7 +62,7 @@ library("rutils")
   Rename any columns of a dataframe (from 1 to as much columns as you
   want)
 
-- [`rename_col()`](https://frbcesab.github.io/rutils/reference/signi.html):
+- [`signi()`](https://frbcesab.github.io/rutils/reference/signi.html):
   Produce produces significance symbols for the values of p
 
 ## Contribution
