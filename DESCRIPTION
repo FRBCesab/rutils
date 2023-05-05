@@ -16,16 +16,18 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Imports: 
+    graphics,
+    grDevices,
     httr,
+    imager,
     jsonlite,
     png,
+    stats,
     tidyr,
     utils
 Suggests: 
-    ggplot2,
     knitr,
     rmarkdown,
-    rphylopic,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 VignetteBuilder: knitr
