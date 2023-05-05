@@ -2,7 +2,7 @@
 % Please edit documentation in R/plot_2d_img.R
 \name{plot_2d_img}
 \alias{plot_2d_img}
-\title{Plot two variables using images png for points}
+\title{Plot two variables using images png as points}
 \usage{
 plot_2d_img(
   df,
@@ -20,7 +20,8 @@ plot_2d_img(
   cexR,
   colline,
   lwline,
-  ltyline
+  ltyline,
+  ...
 )
 }
 \arguments{
@@ -28,7 +29,8 @@ plot_2d_img(
 
 \item{scale}{a numeric between 0 and 1 (used to resize the images)}
 
-\item{size}{the parameter size of the function imager::resize (between -0L and -100L) used to reduce the resolution of the image (proportion between 0 and 100\%)}
+\item{size}{the parameter size of the function imager::resize (between -0L and -100L)
+used to reduce the resolution of the image (proportion between 0 and 100\%)}
 
 \item{pathimages}{path to the images}
 
@@ -55,21 +57,26 @@ plot_2d_img(
 \item{lwline}{lwd of the abline used to illustrate the lm}
 
 \item{ltyline}{lty of the abline used to illustrate the lm}
+
+\item{...}{other plot options; see ?par (as mar or mpg)}
 }
 \value{
 a plot
 }
 \description{
-Plot two variables using images png for points.Works with any king of png, the best stratgegy
+Plot two variables using images png as points.Works with any king of png, the best stratgegy
 is to use png with no backgrounds.
 Parameter scale and size are important to tune to make the plot readable and not to heavy
 Must be plotted (or saved) on a 1:1 dimension
 }
 \examples{
 set.seed(3)
-df <- cbind.data.frame(x=runif(10, 0, 10),y=runif(10, 0, 10),img_names=lessR::to("img_", 10))
+df <- cbind.data.frame(x=runif(10, 0, 10),y=runif(10, 0, 10),
+img_names=paste0("img_",rutils::leading_zero(1:10)))
 pathimages <- system.file("extdata", "plot2dimg", package = "rutils")
-plot_2d_img <- function(df,scale=0.2,size=-35L,pathimages,cexaxis=1.5, cexlab=2.5,lm=TRUE,xR=1.5,yR=10,colR="gray",cexR=1.5,colline="gray",lwline=2,ltyline=2)
-
+plot_2d_img(df,scale=0.2,size=-35L,pathimages,
+lm=TRUE,xR=1.5,yR=10,colR="gray",cexR=1.5,colline="gray",lwline=2,ltyline=2,
+labelx="Variable x",labely="Variable y",mar=c(8, 9, 4.1, 2.1),mgp=c(6,2,0),
+cex.lab=2.5,cex.axis=1.5)
 
 }
