@@ -70,6 +70,7 @@ Parameter scale and size are important to tune to make the plot readable and not
 Must be plotted (or saved) on a 1:1 dimension
 }
 \examples{
+\dontrun{
 set.seed(3)
 df <- cbind.data.frame(x=runif(10, 0, 10),y=runif(10, 0, 10),
 img_names=paste0("img_",rutils::leading_zero(1:10)))
@@ -78,5 +79,5 @@ plot_2d_img(df,scale=0.2,size=-35L,pathimages,
 lm=TRUE,xR=1.5,yR=10,colR="gray",cexR=1.5,colline="gray",lwline=2,ltyline=2,
 labelx="Variable x",labely="Variable y",mar=c(8, 9, 4.1, 2.1),mgp=c(6,2,0),
 cex.lab=2.5,cex.axis=1.5)
-
+}
 }
