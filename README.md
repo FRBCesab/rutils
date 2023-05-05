@@ -65,6 +65,9 @@ library("rutils")
 - [`signi()`](https://frbcesab.github.io/rutils/reference/signi.html):
   Produce produces significance symbols for the values of p
 
+- [`plot_2d_img()`](https://frbcesab.github.io/rutils/reference/plot_2d_img.html):
+  Plot two variables using images png as points
+
 ## Contribution
 
 Visit the
