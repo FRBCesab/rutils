@@ -3,6 +3,7 @@
 export(address_to_coords)
 export(get_phylopic_image)
 export(get_world_basemap)
+export(hiking_time)
 export(leading_zero)
 export(len)
 export(multi_merge)
