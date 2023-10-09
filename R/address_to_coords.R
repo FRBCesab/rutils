@@ -41,7 +41,7 @@ address_to_coords <- function(address) {
   
   ## API URL ----
   
-  api_url <- "https://nominatim.openstreetmap.org/search/"
+  api_url <- "https://nominatim.openstreetmap.org/search"
 
   
   ## Encode search terms ----
@@ -51,7 +51,7 @@ address_to_coords <- function(address) {
   
   ## Build request ----
   
-  full_url <- paste0(api_url, address, "?format=json&limit=1")
+  full_url <- paste0(api_url, "?q=", address, "&format=json&limit=1")
   
   
   ## Send request ----
