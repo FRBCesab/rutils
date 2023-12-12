@@ -76,12 +76,14 @@ address_to_coords <- function(address) {
   
   if (length(results) == 0) {
     
-    return(data.frame("lon" = numeric(0),
-                      "lat" = numeric(0)))
+    return(data.frame("lon"  = numeric(0),
+                      "lat"  = numeric(0),
+                      "name" = character(0)))
     
   } else {
     
-    return(data.frame("lon" = as.numeric(results$"lon"),
-                      "lat" = as.numeric(results$"lat")))
+    return(data.frame("lon"  = as.numeric(results$"lon"),
+                      "lat"  = as.numeric(results$"lat"),
+                      "name" = results$"display_name"))
   }
 }
