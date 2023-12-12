@@ -6,7 +6,7 @@
 # install.packages(c("png", "ggplot2", "hexSticker", "grid", "ggpubr"))
 
 
-rlogo <- png::readPNG(here::here("inst", "package-sticker", "r_logo.png"))
+rlogo <- png::readPNG(here::here("inst", "package-sticker", "logo.png"))
 rlogo <- grid::rasterGrob(rlogo, interpolate = TRUE)
 
 p <- ggplot2::ggplot() +
@@ -16,31 +16,31 @@ p <- ggplot2::ggplot() +
   ggpubr::theme_transparent()
 
 hexSticker::sticker(
-
+  
   subplot   = p,
-  package   = "R Package",
+  package   = "",
   filename  = here::here("man", "figures", "package-sticker.png"),
   dpi       = 600,
-
-  p_size    = 28.0,         # Title
-  u_size    =  5.0,         # URL
+  
+  p_size    = 35.0,         # Title
+  u_size    =  8.0,         # URL
   p_family  = "Aller_Rg",
-
-  p_color   = "#32436F",   # Title
-  h_fill    = "#FFFFFF",   # Background
-  h_color   = "#1064B2",   # Border
-  u_color   = "#32436F",   # URL
-
+  
+  p_color   = "#282828",   # Title
+  h_fill    = "#ebdbb2",   # Background
+  h_color   = "#282828",   # Border
+  u_color   = "#282828",   # URL
+  
   p_x       = 1.00,        # Title
   p_y       = 0.60,        # Title
   s_x       = 1.00,        # Subplot
-  s_y       = 1.25,        # Subplot
-
-  s_width   = 1.25,        # Subplot
-  s_height  = 1.25,        # Subplot
-
-  url       = "https://github.com/",
-
+  s_y       = 1.00,        # Subplot
+  
+  s_width   = 1.75,        # Subplot
+  s_height  = 1.75,        # Subplot
+  
+  url       = "https://frbcesab.github.io/rutils",
+  
   spotlight = TRUE,
   l_alpha   = 0.10,
   l_width   = 4,
