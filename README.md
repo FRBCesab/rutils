@@ -58,6 +58,9 @@ library("rutils")
 - [`address_to_coords()`](https://frbcesab.github.io/rutils/reference/address_to_coords.html):
   gets geographic coordinates of any location in the World
 
+- [`coords_to_address()`](https://frbcesab.github.io/rutils/reference/coords_to_address.html):
+  retrieve any location in the World from geographic coordinates
+
 - [`rename_col()`](https://frbcesab.github.io/rutils/reference/rename_col.html):
   Rename any columns of a dataframe (from 1 to as much columns as you
   want)
