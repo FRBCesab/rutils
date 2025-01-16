@@ -45,8 +45,8 @@ test_that("Function coords_to_address() - Test for success", {
   
   expect_null(names(x))
 
-  expect_equal(x, paste0("One Shell Plaza, 910, Louisiana Street, Houston, ", 
-                         "Harris County, Texas, 77002, United States"))
+  expect_equal(x, paste0("One Shell Plaza, 910, Louisiana Street, Downtown, ", 
+                         "Houston, Harris County, Texas, 77002, United States"))
   
   
   ## Bad address (Atlantic Ocean) ----
