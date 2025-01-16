@@ -71,6 +71,8 @@ library("rutils")
 
 - [`hiking_time()`](https://frbcesab.github.io/rutils/reference/hiking_time.html): Hiking time calculation
 
+- [`get_city_admin_info()`](https://frbcesab.github.io/rutils/reference/get_city_admin_info.html): Retrieve administrative information of a French city (postal code, INSEE code, region, etc.)
+
 
 ## Contribution
 

@@ -74,6 +74,10 @@ library("rutils")
 - [`hiking_time()`](https://frbcesab.github.io/rutils/reference/hiking_time.html):
   Hiking time calculation
 
+- [`get_city_admin_info()`](https://frbcesab.github.io/rutils/reference/get_city_admin_info.html):
+  Retrieve administrative information of a French city (postal code,
+  INSEE code, region, etc.)
+
 ## Contribution
 
 Visit the
@@ -84,7 +88,7 @@ learn how to contribute to this project.
 
 Please cite this package as:
 
-> Casajus N. (2023) `rutils`: A collection of R functions commonly used
+> Casajus N. (2025) `rutils`: A collection of R functions commonly used
 > in FRB-CESAB projects. R package version 0.0.0.9000.
 > <https://frbcesab.github.io/rutils>.
 
