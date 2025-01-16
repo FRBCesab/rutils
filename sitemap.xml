@@ -1,63 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>/404.html</loc>
-  </url>
-  <url>
-    <loc>/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>/articles/rutils.html</loc>
-  </url>
-  <url>
-    <loc>/authors.html</loc>
-  </url>
-  <url>
-    <loc>/index.html</loc>
-  </url>
-  <url>
-    <loc>/reference/address_to_coords.html</loc>
-  </url>
-  <url>
-    <loc>/reference/coords_to_address.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_phylopic_image.html</loc>
-  </url>
-  <url>
-    <loc>/reference/get_world_basemap.html</loc>
-  </url>
-  <url>
-    <loc>/reference/hiking_time.html</loc>
-  </url>
-  <url>
-    <loc>/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>/reference/leading_zero.html</loc>
-  </url>
-  <url>
-    <loc>/reference/len.html</loc>
-  </url>
-  <url>
-    <loc>/reference/multi_merge.html</loc>
-  </url>
-  <url>
-    <loc>/reference/plot_2d_img.html</loc>
-  </url>
-  <url>
-    <loc>/reference/rename_col.html</loc>
-  </url>
-  <url>
-    <loc>/reference/rutils-package.html</loc>
-  </url>
-  <url>
-    <loc>/reference/signi.html</loc>
-  </url>
-  <url>
-    <loc>/reference/to_binomial_name.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>/404.html</loc></url>
+<url><loc>/LICENSE.html</loc></url>
+<url><loc>/articles/index.html</loc></url>
+<url><loc>/articles/rutils.html</loc></url>
+<url><loc>/authors.html</loc></url>
+<url><loc>/index.html</loc></url>
+<url><loc>/reference/address_to_coords.html</loc></url>
+<url><loc>/reference/coords_to_address.html</loc></url>
+<url><loc>/reference/get_city_admin_info.html</loc></url>
+<url><loc>/reference/get_phylopic_image.html</loc></url>
+<url><loc>/reference/get_world_basemap.html</loc></url>
+<url><loc>/reference/hiking_time.html</loc></url>
+<url><loc>/reference/index.html</loc></url>
+<url><loc>/reference/leading_zero.html</loc></url>
+<url><loc>/reference/len.html</loc></url>
+<url><loc>/reference/multi_merge.html</loc></url>
+<url><loc>/reference/plot_2d_img.html</loc></url>
+<url><loc>/reference/rename_col.html</loc></url>
+<url><loc>/reference/rutils-package.html</loc></url>
+<url><loc>/reference/signi.html</loc></url>
+<url><loc>/reference/to_binomial_name.html</loc></url>
 </urlset>
+
