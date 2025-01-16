@@ -2,6 +2,7 @@
 
 export(address_to_coords)
 export(coords_to_address)
+export(get_city_admin_info)
 export(get_phylopic_image)
 export(get_world_basemap)
 export(hiking_time)
